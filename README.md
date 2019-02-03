@@ -18,10 +18,3 @@ Once you've performed the setup you can start the container in the background.
 ```bash
 docker run --rm -d -v amr-settings:/AskMrRobotClient/ gaffneyc/askmrrobot
 ```
-
-## Rebuilding for Docker Hub
-
-```
-docker build --tag gaffneyc/askmrrobot .
-docker push gaffneyc/askmrrobot
-``
