@@ -20,7 +20,7 @@ RUN \
 # Install the .NET runtime
 RUN \
   apt-get update && \
-  apt-get install -y aspnetcore-runtime-2.2 && \
+  apt-get install -y dotnet-runtime-2.2 && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
