@@ -26,7 +26,7 @@ RUN \
 
 # Download and install the AskMrRobot client to /AskMrRobotClient
 RUN \
-  wget -q -O client.zip https://static2.askmrrobot.com/wowsite/client/AskMrRobotClient-any-1139.zip && \
+  wget -q -O client.zip https://static2.askmrrobot.com/wowsite/client/AskMrRobotClient-any-1140.zip && \
   unzip -d / client.zip && \
   rm client.zip
 
