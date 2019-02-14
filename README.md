@@ -8,7 +8,7 @@ credentials you can quit the container.
 
 ```bash
 docker volume create amr-settings
-docker run --rm -ti -v amr-settings:/AskMrRobotClient gaffneyc/askrmrobot
+docker run --rm -ti -v amr-settings:/AskMrRobotClient gaffneyc/askmrrobot
 ```
 
 ## Running
