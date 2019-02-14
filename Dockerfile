@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 LABEL maintainer="Chris Gaffney"
 LABEL source="https://github.com/gaffneyc/askmrrobot-docker"
-LABEL description="AskMrRobot Simulator Client https://www.askmrrobot.com/wow/simulator/client"
+LABEL description="AskMrRobot Simulator v1143 - https://www.askmrrobot.com/wow/simulator/client"
 
 # Dependencies for the install process
 RUN \
