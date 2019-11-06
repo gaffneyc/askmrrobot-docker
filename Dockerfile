@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 LABEL maintainer="Chris Gaffney"
 LABEL source="https://github.com/gaffneyc/askmrrobot-docker"
-LABEL description="AskMrRobot Simulator v1198 - https://www.askmrrobot.com/wow/simulator/client"
+LABEL description="AskMrRobot Simulator v1199 - https://www.askmrrobot.com/wow/simulator/client"
 
 # Dependencies for the install process
 RUN \
@@ -26,7 +26,7 @@ RUN \
 
 # Download and install the AskMrRobot client to /AskMrRobotClient
 RUN \
-  wget -q -O client.zip https://static2.askmrrobot.com/wowsite/client/AskMrRobotClient-any-1198.zip && \
+  wget -q -O client.zip https://static2.askmrrobot.com/wowsite/client/AskMrRobotClient-any-1199.zip && \
   unzip -d / client.zip && \
   rm client.zip
 
