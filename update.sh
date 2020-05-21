@@ -1,6 +1,6 @@
 #!/bin/sh
 
-current="$(grep -Poe 'any-\K\d+' Dockerfile)"
+current="$(grep -Poe 'universal-\K\d+' Dockerfile)"
 upstream="$(curl -s https://www.askmrrobot.com/wow/simulator/client | grep -Poe 'Version \K(\d)+')"
 
 if [ $current != $upstream ]; then

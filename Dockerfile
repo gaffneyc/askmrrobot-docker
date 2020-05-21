@@ -20,15 +20,15 @@ RUN \
 # Install the .NET runtime
 RUN \
   apt-get update && \
-  apt-get install -y dotnet-runtime-2.2 && \
+  apt-get install -y dotnet-runtime-3.1 && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
 # Download and install the AskMrRobot client to /AskMrRobotClient
 RUN \
-  wget -q -O client.zip https://static2.askmrrobot.com/wowsite/client/AskMrRobotClient-any-1239.zip && \
+  wget -q -O client.zip https://static.askmrrobot.com/wowsite/client/AskMrRobotClient-universal-1239.zip && \
   unzip -d / client.zip && \
   rm client.zip
 
 WORKDIR /AskMrRobotClient
-CMD [ "/usr/bin/dotnet", "amr.dll" ]
+CMD [ "/usr/bin/dotnet", "simclient.dll" ]
