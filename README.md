@@ -1,5 +1,7 @@
 # [Ask Mr. Robot](https://www.askmrrobot.com) Simulator Client on Docker
 
+[![Docker Automated build](https://img.shields.io/docker/automated/gaffneyc/askmrrobot)](https://hub.docker.com/r/gaffneyc/askmrrobot)
+
 ## Setup
 
 Before you can use the simulator you'll need configure and download the
