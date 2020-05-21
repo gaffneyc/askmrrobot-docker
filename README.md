@@ -2,19 +2,17 @@
 
 ## Setup
 
-Before you can use the simulator you'll need create a volume for storing
-credentials and then log in to Ask Mr. Robot. Once you've entered your
-credentials you can quit the container.
+Before you can use the simulator you'll need configure and download the
+settings.json file from Ask Mr. Robot.
 
-```bash
-docker volume create amr-settings
-docker run --rm -ti -v amr-settings:/AskMrRobotClient gaffneyc/askmrrobot
-```
+[Configure and download settings.json](https://www.askmrrobot.com/wow/simulator/client)
 
 ## Running
 
-Once you've performed the setup you can start the container in the background.
+From the directory where settings.json is stored you can run the below command.
+Change `$PWD` to be the full path to settings.json if it's stored in another
+directory.
 
 ```bash
-docker run --rm -d -v amr-settings:/AskMrRobotClient/ gaffneyc/askmrrobot
+docker run --rm -d -v $PWD/settings.json:/AskMrRobotClient/settings.json gaffneyc/askmrrobot
 ```
