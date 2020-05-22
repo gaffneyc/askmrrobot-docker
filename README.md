@@ -1,6 +1,6 @@
 # [Ask Mr. Robot](https://www.askmrrobot.com) Simulator Client on Docker
 
-[![Docker Automated build](https://img.shields.io/docker/automated/gaffneyc/askmrrobot)](https://hub.docker.com/r/gaffneyc/askmrrobot)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/gaffneyc/askmrrobot)](https://hub.docker.com/r/gaffneyc/askmrrobot)
 
 ## Setup
 
