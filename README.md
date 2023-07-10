@@ -2,6 +2,10 @@
 
 [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/gaffneyc/askmrrobot)](https://hub.docker.com/r/gaffneyc/askmrrobot)
 
+## Deprecated
+
+Ask Mr. Robot has [deprecated their simlutation tools](https://forums.askmrrobot.com/t/what-happened-to-the-comprehensive-simulation-tool/14883/2)
+
 ## Setup
 
 Before you can use the simulator you'll need configure and download the
